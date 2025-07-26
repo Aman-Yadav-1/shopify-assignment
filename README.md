@@ -47,16 +47,6 @@ src/
   index.css              # Tailwind and design system
 ```
 
-## Data Source
-
-- **Current:**  
-  - Product data, images, and pricing are mocked in `ProductPage.tsx`.
-- **Shopify Integration:**  
-  - Replace mock data with Shopify Storefront API calls to fetch:
-    - Product variants, images, metafields, and pricing.
-    - Subscription and discount logic.
-  - All UI and logic are ready for dynamic data.
-
 ## Setup & Usage
 
 1. **Install dependencies:**
@@ -74,7 +64,7 @@ src/
    ```
 
 3. **Open in browser:**  
-   Visit [http://localhost:5173](http://localhost:5173) (or your Vite/React dev server port).
+   Visit [http://localhost:5173](http://localhost:3000) (or your Vite/React dev server port).
 
 4. **Shopify Integration:**  
    - Replace the mock product data in `ProductPage.tsx` with real data from Shopify's Storefront API.
